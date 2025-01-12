@@ -1,1 +1,8 @@
-/node_modules
+/**/node_modules/
+/.git/
+**/app/css/
+/**/*.psd
+/**/package-lock.json
+/**/Thumbs.db
+/**/.DS_Store
+/**/debug.log
