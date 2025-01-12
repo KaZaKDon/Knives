@@ -1,0 +1,35 @@
+{
+  "name": "knives",
+  "version": "1.0.0",
+  "description": "shop",
+  "homepage": "https://github.com/KaZaKDon/Knives#readme",
+  "bugs": {
+    "url": "https://github.com/KaZaKDon/Knives/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaZaKDon/Knives.git"
+  },
+  "license": "ISC",
+  "author": "Kazak",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "gulp": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat-css": "^1.2.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-livereload": "^4.0.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^6.0.0",
+    "gulp-uglify": "^3.0.2",
+    "imagemin-pngquant": "^10.0.0",
+    "sass": "^1.83.1"
+  }
+}
