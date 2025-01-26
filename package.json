@@ -16,7 +16,9 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "build": "gulp buildStyles",
+    "watch": "gulp watch"
   },
   "devDependencies": {
     "browser-sync": "^3.0.3",
@@ -33,6 +35,7 @@
     "gulp-minify-css": "^1.2.4",
     "gulp-sass": "^6.0.0",
     "gulp-uglify": "^3.0.2",
+    "gulp-uglifyjs": "^0.6.2",
     "imagemin-pngquant": "^10.0.0",
     "sass": "^1.83.1"
   },
